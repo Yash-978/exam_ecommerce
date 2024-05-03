@@ -37,3 +37,11 @@ height=22% >
 height=22% >
 </p>
 
+<div align ="center">
+<video src= "https://github.com/Yash-978/exam_ecommerce/assets/147479013/8ea37e63-8ac3-4f0c-9d6c-5cdd54716cbd" width=35%
+height=22% >
+</div>
+
+
+
+
