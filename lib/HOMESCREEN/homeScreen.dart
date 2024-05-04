@@ -69,9 +69,9 @@ class _HomescreenState extends State<Homescreen> {
                     ),
                     child: Center(
                         child: Text(
-                      'Wrist',
-                      style: TextStyle(fontSize: 25),
-                    )),
+                          'Wrist',
+                          style: TextStyle(fontSize: 25),
+                        )),
                   ),
                   Container(
                     height: 70,
@@ -82,9 +82,9 @@ class _HomescreenState extends State<Homescreen> {
                     ),
                     child: Center(
                         child: Text(
-                      'wall',
-                      style: TextStyle(fontSize: 25),
-                    )),
+                          'wall',
+                          style: TextStyle(fontSize: 25),
+                        )),
                   ),
                   Container(
                     height: 70,
@@ -95,9 +95,9 @@ class _HomescreenState extends State<Homescreen> {
                     ),
                     child: Center(
                         child: Text(
-                      'pendulam clock',
-                      style: TextStyle(fontSize: 25),
-                    )),
+                          'pendulam clock',
+                          style: TextStyle(fontSize: 25),
+                        )),
                   ),
                   Container(
                     height: 70,
@@ -108,9 +108,9 @@ class _HomescreenState extends State<Homescreen> {
                     ),
                     child: Center(
                         child: Text(
-                      'classic',
-                      style: TextStyle(fontSize: 25),
-                    )),
+                          'classic',
+                          style: TextStyle(fontSize: 25),
+                        )),
                   )
                 ],
               ),
@@ -119,20 +119,21 @@ class _HomescreenState extends State<Homescreen> {
               children: [
                 ...List.generate(
                   productList.length,
-                  (index) => GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        selectedindex = index;
-                        Navigator.of(context).pushNamed('/detail');
-                      });
-                    },
-                    child: udfproduct(
-                      name: productList[index]['name'],
-                      dec: productList[index]['dec'],
-                      price: productList[index]['price'],
-                      img: productList[index]['img'],
-                    ),
-                  ),
+                      (index) =>
+                      GestureDetector(
+                        onTap: () {
+                          setState(() {
+                            selectedindex = index;
+                            Navigator.of(context).pushNamed('/detail');
+                          });
+                        },
+                        child: udfproduct(
+                          name: productList[index]['name'],
+                          dec: productList[index]['dec'],
+                          price: productList[index]['price'],
+                          img: productList[index]['img'],
+                        ),
+                      ),
                 )
               ],
             )

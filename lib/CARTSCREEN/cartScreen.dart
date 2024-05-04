@@ -1,4 +1,4 @@
-import 'dart:ui';
+
 
 import 'package:exam_ecommerce/List.dart';
 import 'package:flutter/cupertino.dart';
@@ -83,6 +83,7 @@ class _CartScreenState extends State<CartScreen> {
                 (amount + cartList[i]['price'] * (cartList[i]['member']));
               }
               total = ((amount) * 18 / 100) + amount;
+
               Navigator.pushNamed(context, '/check');
             },
             child: Container(
@@ -211,6 +212,9 @@ class _CartScreenState extends State<CartScreen> {
             onTap: () {
               setState(() {
                 cartList.removeAt(index);
+                qty=0;
+                amount=0;
+                total=0;
               });
             },
             child: Container(
