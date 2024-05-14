@@ -28,19 +28,24 @@ height=22% >
 
 
 <p align = "center">
-<img src= "https://github.com/Yash-978/exam_ecommerce/assets/147479013/449cf8b1-f704-4c8c-96b9-7159a24ddbd5" width=35%
+<img src= "https://github.com/Yash-978/exam_ecommerce/assets/147479013/064404c8-1fb9-4c99-9684-831a6ebeabc8" width=35%
 height=22% >
 </p>
 
 <p align = "center">
-<img src= "https://github.com/Yash-978/exam_ecommerce/assets/147479013/e0f6f285-17a5-4e96-aecc-212aed01f112" width=35%
+<img src= "https://github.com/Yash-978/exam_ecommerce/assets/147479013/d80e2db7-f40c-46f2-828f-6054f2a40d1e" width=35%
 height=22% >
 </p>
 
 <div align ="center">
-<video src= "https://github.com/Yash-978/exam_ecommerce/assets/147479013/8ea37e63-8ac3-4f0c-9d6c-5cdd54716cbd" width=35%
+<video src= "https://github.com/Yash-978/exam_ecommerce/assets/147479013/c0eea4e2-0837-4894-a51f-5830b707a05c" width=35%
 height=22% >
 </div>
+
+
+
+
+
 
 
 
